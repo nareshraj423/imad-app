@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 var counter = 0;
 app.get('/counter', function (req,res) {
     counter += 1;
-    res.send(counter.toString());
+    res.send(counter);
 });
 
 app.get('/ui/style.css', function (req, res) {
